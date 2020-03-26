@@ -15,9 +15,9 @@ sixth_grade_high_honors_file_path = '/Users/romanleal/Desktop/Certificates/6th G
 honors_template = '/Users/romanleal/Desktop/Certificates/Honors.png'
 
 # Data
-spread_sheet = pd.read_csv('/Users/romanleal/Desktop/Certificates/Sorted T2 Honor Roll.csv')
+spreadsheet = pd.read_csv('/Users/romanleal/Desktop/Certificates/Sorted T2 Honor Roll.csv')
 student_characteristics = ['First Name', 'Last Name', 'Grade', 'Honors Status']
-df = DataFrame(spread_sheet, columns=student_characteristics)
+df = DataFrame(spreadsheet, columns=student_characteristics)
 df = df.dropna()
 
 
